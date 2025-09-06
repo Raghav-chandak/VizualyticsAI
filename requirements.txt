@@ -22,7 +22,7 @@ xlrd>=2.0.1        # Excel files (older format)
 pyarrow>=12.0.1    # Parquet files
 
 # Database
-pysqlite3             # Built-in with Python
+pysqlite3-binary             # Built-in with Python
 
 # Advanced Data Analysis (Optional but Recommended)
 # Uncomment these for enhanced features:
