@@ -1,0 +1,172 @@
+# DataForge AI - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+dataforge-ai/  # Conda environment if accidentally created locally
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (exclude uploaded/generated data)
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+data/*.parquet
+data/*.pkl
+data/*.pickle
+
+# Exported files
+exports/*.csv
+exports/*.xlsx
+exports/*.json
+exports/*.parquet
+exports/*.pdf
+exports/*.png
+exports/*.jpg
+
+# Model files
+models/*.pkl
+models/*.pickle
+models/*.joblib
+models/*.h5
+models/*.onnx
+models/*.pt
+models/*.pth
+
+# Logs
+logs/*.log
+logs/*.txt
+*.log
+
+# Streamlit
+.streamlit/
+streamlit_cache/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Profiling data
+.prof
+
+# Large files (GitHub has 100MB limit)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Sample data files (comment out if you want to include sample data)
+sample_*.csv
+sample_*.xlsx
+test_*.csv
+test_*.json
+
+# Documentation builds
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Configuration files with sensitive data
+config_local.py
+secrets.json
+credentials.json
+
+# Cache directories
+.cache/
+.sass-cache/
+
+# Node.js (if you add any frontend components later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Keep sample data structure but ignore content
+# Uncomment these if you want to track folder structure:
+# !data/.gitkeep
+# !exports/.gitkeep  
+# !models/.gitkeep
+# !logs/.gitkeep
